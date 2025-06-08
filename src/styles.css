@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply transition-colors duration-300;
+}
+
+/* Glassmorphism effect */
+.glass {
+  @apply bg-white bg-opacity-10 backdrop-blur-md border border-gray-200 border-opacity-20 shadow-lg;
+  /* For dark mode */
+  @apply dark:bg-gray-800 dark:bg-opacity-10 dark:border-gray-700 dark:border-opacity-20;
+}
+
+/* Custom button animation */
+.btn {
+  @apply relative overflow-hidden transition-all duration-300;
+}
+
+.btn::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-accent to-green-600 opacity-0 transition-opacity duration-300;
+}
+
+.btn:hover::before {
+  @apply opacity-100;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark mode toggle */
+.dark body {
+  @apply bg-gray-900 text-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-200 dark:bg-gray-800;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-accent rounded-full;
+}
