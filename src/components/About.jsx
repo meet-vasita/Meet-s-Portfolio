@@ -68,7 +68,7 @@ function About() {
 
                                 <div className="space-y-4 text-gray-300 leading-relaxed">
                                     <p className="text-lg">
-                                        I'm an <span className="text-blue-400 font-semibold">Information Technology </span>  with a strong interest in Python, data science, and machine learning. During my B.E., I developed a passion for using data to solve real-world problems and find useful insights.
+                                        I'm an <span className="text-blue-400 font-semibold">Information Technology </span>  student with a strong interest in Python, data science, and machine learning. During my B.E., I developed a passion for using data to solve real-world problems and find useful insights.
                                     </p>
 
                                     <p>
