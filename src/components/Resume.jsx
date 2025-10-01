@@ -88,8 +88,32 @@ function Resume() {
   ];
 
   const achievementsData = [
-    
-  ];
+  {
+    id: 1,
+    title: "Open Source Contributor : python-binance",
+    description: "Contributed to the python-binance library, improving the little bit of code.",
+    year: 2025,
+    icon: "🐍",
+    link: "https://github.com/sammchardy/python-binance"
+  },
+  {
+    id: 2,
+    title: "Open Source Contributor : pip (Python Package Manager)",
+    description: "Made contributions to pip, the official Python package installer, enhanced the documentation.",
+    year: 2025,
+    icon: "📦",
+    link: "https://github.com/pypa/pip"
+  },
+  {
+    id: 3,
+    title: "Open Source Contributor : pandas",
+    description: "Contributed to the pandas library, enhancing documentation.",
+    year: 2025,
+    icon: "🐼",
+    link: "https://github.com/pandas-dev/pandas"
+  }
+];
+
 
   const tabs = [
     { id: 'timeline', label: 'Timeline', icon: FaCalendarAlt },
