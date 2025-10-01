@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import profileImg from '../assets/Profile1.jpeg';
+import profileImg from '../assets/Profile1.png';
 import Particles from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
 
